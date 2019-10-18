@@ -1,0 +1,590 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+ 	<title>拱拱 - 湘大变得如此简单 | 三翼工作室</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon"  href="1.png" type="image/x-ico"/>
+	<style>
+		@media screen and (min-width:901px)and (max-width: 2000px)
+		{
+				.background{
+						 		width: 100%; 	
+						 		min-width: 1100px; 	
+						 		height: 560px; 	
+						 		background-image: url(3.png); 	
+						 		background-size:cover; 
+						 		position: relative;
+							}
+				.background2{
+							 	width: 100%; 	
+							 	min-width: 1100px; 	
+							 	height: 200px; 	
+							 	background:white; 	
+							 	background-size:cover; 
+							 	position: relative;
+							}
+				.you{   
+						height: 700px;
+					    width: 318px;
+					    background:url(2.png) repeat-x;
+					    position: absolute;
+					    top: 10%;
+					    left: 70%;
+					}
+				.right{
+					  height: 60px;
+					    width: 60px;
+					    background:url(1.png) repeat-x;
+					    position: absolute;
+					    top: 12%;
+					    right: 80%;
+					    transform: translate(-50%, -50%)
+
+					}
+				.right2{
+					    width: 258px;
+					    height: 113px;
+					    text-align: center;
+					    line-height: 120px;
+					    font-size: 33px;
+					    color: #fff;
+					    border-radius: 10px;
+					    background: #fb6c6d;
+					    position: absolute;
+					    left: 357px;
+					    top: 357px;
+					}
+				.zhong{
+					  height: 90px;
+					    width: 90px;
+					    background:url(8.png) repeat-x;
+					    position: absolute;
+					    top: 350px;
+					    left: 452px;
+					}
+				.gong{ 	
+					font-size: 40px; 	
+					font-family: 'youyuan'; 	
+					color:white; 	
+					position: absolute; 	
+					left: 20%; 	
+					top: 8%;
+					} 
+				.zi{ 	
+					font-size: 19px; 	
+					font-family: 'youyuan'; 	
+					color:black; 	
+					position: absolute; 	
+					left: 134px; 	
+					top: 180px; 
+					}
+				.zi1{ 	
+					font-size: 19px; 	
+					font-family: 'youyuan'; 	
+					color:black; 	
+					position: absolute; 	
+					right: 75%;	
+					top: 180px; 
+					} 
+				.zi2{ 	
+					font-size: 19px; 	
+					font-family: 'youyuan'; 	
+					color:black; 	
+					position: absolute; 	
+				    right: 55%;		
+					top: 180px; 
+					} 
+				.zi3{ 	
+					font-size: 19px; 	
+					font-family: 'youyuan'; 	
+					color:black; 	
+					position: absolute; 	
+					right: 35%;		
+					top: 180px; 
+					} 
+				.zi4{ 	
+					font-size: 19px; 	
+					font-family: 'youyuan'; 	
+					color:black; 	
+					position: absolute; 	
+					right: 15%;	 	
+					top: 180px; 
+					} 
+				.gong2{ 	
+					font-size: 40px; 	
+					font-family: 'youyuan'; 	
+					color:white; 	
+					position: absolute; 	
+					left: 150px; 	
+					top: 200px; 
+					} 
+				.gong3{ 	
+					font-size: 21px; 	
+					font-family: 'youyuan'; 	
+					color:white; 	
+					position: absolute; 	
+					left: 150px; 	
+					top: 451px; 
+					} 
+				.a{ 	
+					color: #efefef; 	
+					font-family: 'yueyuan'; 	
+					font-size: 33px; 	
+					position: absolute; 	
+					top: 200px; left: 250px; 
+					} 
+				.b{ 	
+					background-color: #fb6c6d; 	
+					height: 30px; 	
+					width: 105px; 	
+					color: #fff; 	
+					font-size: 20px; 	
+					text-align: center; 	
+					margin-left: 25px; 	
+					border-radius: 5px; 	
+					position: absolute; 	
+					top: 210px; 	
+					left: 450px; 
+					} 
+				.d{ 	
+					font-size: 35px; 	
+					color: #fff; 	
+					line-height: 60px; 	
+					position: absolute; 	
+					left: 150px; 	
+					top: 250px; 	}
+				.tu7{
+			            height: 60px;
+			            width: 100%;
+			            background:url(7.png) repeat-x;
+			            position: absolute;
+			            top: 12%;
+				         right: 75%;}
+				.tu5{
+			            height: 60px;
+			            width: 100%;
+			            background:url(5.png) repeat-x;
+			            position: absolute;
+			            top: 12%;
+			            right: 55%;}
+				.tu6{
+			            height: 60px;
+			            width: 100%;
+			            background:url(6.png) repeat-x;
+			            position: absolute;
+			            top: 12%;
+			            right: 35%;}
+				.tu4{
+			            height: 60px;
+			            width: 100%;
+			            background:url(4.png) repeat-x;
+			            position: absolute;
+			            top: 12%;
+			            right: 15%;}
+
+				.box1
+					{
+					  width:500;
+					  height:100px;
+					  margin:30px 50px;
+					  background-color:#ffffff;
+					  border:1px solid black;
+					  opacity:0.6;
+					  filter:alpha(opacity=60);
+					  float:left; /* IE8 及更早版本 */
+					}
+				.box2
+					{
+					  width:100px;
+					  height:100px;
+					  margin:30px 50px;
+					  background-color:#ffffff;
+					  border:1px solid black;
+					  opacity:0.6;
+					  filter:alpha(opacity=60);
+					  float:left; /* IE8 及更早版本 */
+					   /* IE8 及更早版本 */
+					}
+				.box3
+					{
+					  width:100px;
+					  height:100px;
+					  margin:30px 50px;
+					  background-color:#ffffff;
+					  border:1px solid black;
+					  opacity:0.6;
+					  filter:alpha(opacity=60);
+					  float:left; /* IE8 及更早版本 */
+					}
+				.box4
+					{
+					  width:100px;
+					  height:100px;
+					  margin:30px 50px;
+					  background-color:#ffffff;
+					  border:1px solid black;
+					  opacity:0.6;
+					  filter:alpha(opacity=60);
+					  float:left; /* IE8 及更早版本 */
+					}
+
+				.box5
+					{
+					  width:100px;
+					  height:100px;
+					  margin:30px 50px;
+					  background-color:#ffffff;
+					  border:1px solid black;
+					  opacity:0.6;
+					  filter:alpha(opacity=60); /* IE8 及更早版本 */
+					}
+				.clear{
+						clear:both;
+					}
+				.footer {
+					  padding: 20px;
+					  text-align: center;
+					  background: #ddd;
+					  margin-top: 20px;
+					}
+				.top_download{ 	
+					 	width: 258px; 	
+					 	height: 113px; 	
+					 	text-align: center; 	
+					 	line-height: 120px; 	
+					 	font-size: 33px; 	
+					 	color: #fff; 	
+					 	border-radius: 10px; 	
+					 	background: #fb6c6d; 	
+					 	position: absolute; 	
+					 	left: 157px; 	
+					 	top: 330px; }
+					  .pic{ 	
+					  	width: 20%; 	
+					  	height: 60px; 	
+					  	background-image: 
+					  	url(../imgzai.png); 
+					  	border: none; 	
+					  	position: absolute; 	
+					  	left: 8px; 	
+					  	bottom: 18px; 
+					  }
+					{
+						list-style-type:none;
+						margin:0;
+						padding:0;
+						overflow:hidden;
+					}
+		}
+	@media only screen and (min-width: 50px) and (max-width: 900px)
+	{
+				.background{
+						 		width: 100%; 	
+						 		min-width: 1100px; 	
+						 		height: 740px; 	
+						 		background-image: url(3.png); 	
+						 		background-size:cover; 
+						 		position: relative;
+							}
+				.background2{
+							 	width: 100%; 	
+							 	min-width: 1100px; 	
+							 	height: 200px; 	
+							 	background:white; 	
+							 	background-size:cover; 
+							 	position: relative;
+							}
+				.you{   
+						height: 700px;
+					    width: 318px;
+					    background:url(2.png) repeat-x;
+					    position: absolute;
+					    top: 10%;
+					    left: 70%;
+					}
+				.right{
+					  height: 60px;
+					    width: 60px;
+					    background:url(1.png) repeat-x;
+					    position: absolute;
+					    top: 7%;
+					    right: 87%;
+					    transform: translate(-50%, -50%)
+
+					}
+				.right2{
+					    width: 258px;
+					    height: 113px;
+					    text-align: center;
+					    line-height: 120px;
+					    font-size: 33px;
+					    color: #fff;
+					    border-radius: 10px;
+					    background: #fb6c6d;
+					    position: absolute;
+					    left: 357px;
+					    top: 357px;
+					}
+				.gong{ 	
+					font-size: 40px; 	
+					font-family: 'youyuan'; 	
+					color:white; 	
+					position: absolute; 	
+					left: 13%; 	
+					top: 4%;
+					} 
+				.zi{ 	
+					font-size: 19px; 	
+					font-family: 'youyuan'; 	
+					color:black; 	
+					position: absolute; 	
+					left: 134px; 	
+					top: 180px; 
+					}
+				.zi1{ 	
+					font-size: 19px; 	
+					font-family: 'youyuan'; 	
+					color:black; 	
+					position: absolute; 	
+					right: 75%;	
+					top: 180px; 
+					} 
+				.zi2{ 	
+					font-size: 19px; 	
+					font-family: 'youyuan'; 	
+					color:black; 	
+					position: absolute; 	
+				    right: 55%;		
+					top: 180px; 
+					} 
+				.zi3{ 	
+					font-size: 19px; 	
+					font-family: 'youyuan'; 	
+					color:black; 	
+					position: absolute; 	
+					right: 35%;		
+					top: 180px; 
+					} 
+				.zi4{ 	
+					font-size: 19px; 	
+					font-family: 'youyuan'; 	
+					color:black; 	
+					position: absolute; 	
+					right: 15%;	 	
+					top: 180px; 
+					} 
+				.gong2{ 	
+					font-size: 40px; 	
+					font-family: 'youyuan'; 	
+					color:white; 	
+					position: absolute; 	
+					left: 10%; 	
+					top: 52%; 
+					} 
+				.gong3{ 	
+					font-size: 21px; 	
+					font-family: 'youyuan'; 	
+					color:white; 	
+					position: absolute; 	
+					left: 110px; 	
+					top: 650px; 
+					} 
+				.a{ 	
+					color: #efefef; 	
+					font-family: 'yueyuan'; 	
+					font-size: 33px; 	
+					position: absolute; 	
+					top: 60%; 
+					left: 10%; 
+					} 
+				.b{ 	
+					background-color: #fb6c6d; 	
+					height: 30px; 	
+					width: 105px; 	
+					color: #fff; 	
+					font-size: 20px; 	
+					text-align: center; 	
+					margin-left: 25px; 	
+					border-radius: 5px; 	
+					position: absolute; 	
+					top: 53%; 	
+					left: 17%; 
+				   }
+				.d{ 
+					position: absolute; 	
+					left: 150px; 	
+					top: 250px; 	
+					} 
+				.tu7{
+			            height: 60px;
+			            width: 100%;
+			            background:url(7.png) repeat-x;
+			            position: absolute;
+			            top: 12%;
+				         right: 75%;}
+				.tu5{
+			            height: 60px;
+			            width: 100%;
+			            background:url(5.png) repeat-x;
+			            position: absolute;
+			            top: 12%;
+			            right: 55%;}
+				.tu6{
+			            height: 60px;
+			            width: 100%;
+			            background:url(6.png) repeat-x;
+			            position: absolute;
+			            top: 12%;
+			            right: 35%;}
+				.tu4{
+			            height: 60px;
+			            width: 100%;
+			            background:url(4.png) repeat-x;
+			            position: absolute;
+			            top: 12%;
+			            right: 15%;}
+
+				.box1
+					{
+					  width:500;
+					  height:100px;
+					  margin:30px 50px;
+					  background-color:#ffffff;
+					  border:1px solid black;
+					  opacity:0.6;
+					  filter:alpha(opacity=60);
+					  float:left; /* IE8 及更早版本 */
+					}
+				.box2
+					{
+					  width:100px;
+					  height:100px;
+					  margin:30px 50px;
+					  background-color:#ffffff;
+					  border:1px solid black;
+					  opacity:0.6;
+					  filter:alpha(opacity=60);
+					  float:left; /* IE8 及更早版本 */
+					   /* IE8 及更早版本 */
+					}
+				.box3
+					{
+					  width:100px;
+					  height:100px;
+					  margin:30px 50px;
+					  background-color:#ffffff;
+					  border:1px solid black;
+					  opacity:0.6;
+					  filter:alpha(opacity=60);
+					  float:left; /* IE8 及更早版本 */
+					}
+				.box4
+					{
+					  width:100px;
+					  height:100px;
+					  margin:30px 50px;
+					  background-color:#ffffff;
+					  border:1px solid black;
+					  opacity:0.6;
+					  filter:alpha(opacity=60);
+					  float:left; /* IE8 及更早版本 */
+					}
+
+				.box5
+					{
+					  width:100px;
+					  height:100px;
+					  margin:30px 50px;
+					  background-color:#ffffff;
+					  border:1px solid black;
+					  opacity:0.6;
+					  filter:alpha(opacity=60); /* IE8 及更早版本 */
+					}
+				.clear{
+						clear:both;
+					}
+				.footer {
+					  padding: 20px;
+					  text-align: center;
+					  background: #ddd;
+					  margin-top: 20px;
+					  width: 1050px;
+					}
+				.top_download{ 	
+					 	width: 355px; 	
+					 	height: 113px; 	
+					 	text-align: center; 	
+					 	line-height: 120px; 	
+					 	font-size: 33px; 	
+					 	color: #fff; 	
+					 	border-radius: 10px; 	
+					 	background: #fb6c6d; 	
+					 	position: absolute; 	
+					 	left: 10%; 	
+					 	top: 68%; }
+					  .pic{ 	
+					  	width: 20%; 	
+					  	height: 60px; 	
+					  	background-image: 
+					  	url(../imgzai.png); 
+					  	border: none; 	
+					  	position: absolute; 	
+					  	left: 8px; 	
+					  	bottom: 18px; 
+					  }
+					{
+						list-style-type:none;
+						margin:0;
+						padding:0;
+						overflow:hidden;
+					}
+		}
+</style>
+</head>
+ 
+<body>
+ 
+<div class="background">
+  	<div class="right"></div>
+	<span class=gong>拱拱</span>
+    <span class=gong2>拱拱</span>
+    <span class=gong3>4.3MB&nbsp&nbsp&nbsp2019.09.02 更新</span>
+  	<div class=a>for Android</div>
+	<div class=b>Beta</div>
+	<div class=d>湘大变得如此简单</div>
+	<a class=top_download href="https://g.sky31.com/download.php">
+				<span class="pic"></span>
+				<i class=xiazai aria-hidden="true"></i>
+				立即下载
+			</a>
+    <div class="you"></div>
+    <div class="zhong"></div>
+</div>
+  <div class="background2">
+     <div class="tu7" style="width: 150px;
+     height: 150px;"></div>
+    <span class=gong3>4.3MB2019.09.02 更新</span>
+         <strong class=zi1>&nbsp&nbsp&nbsp湘大专属<br>湘大变得如此简单</strong>
+     <div class="tu5" style="width: 150px;
+     height: 150px;"></div>
+         <strong class=zi2>&nbsp&nbsp&nbsp更加轻便<br>只需3M随时更新</strong>
+     <div class="tu6" style="width: 150px;
+     height: 150px;"></div>
+           <strong class=zi3>&nbsp&nbsp&nbsp随时随地<br>显示更加直观便捷</strong>
+     <div class="tu4" style="width: 150px;
+     height: 150px;"></div>
+           <strong class=zi4>&nbsp&nbsp&nbsp抓住信息<br>湘大你的贴身助手</strong>
+      </div>
+
+  </div>
+   
+   <br>
+    <br>
+    <br>
+    <br>
+  
+
+    <div class="footer" >Copyright &copy; 2004-2019
+        湘潭大学三翼工作室</div>
+</html>
